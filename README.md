@@ -1,2 +1,2 @@
 # bookmark-site-spring
-A personal bookmarking site, where user can add bookmarks of website/apps using url
+Personal Bookmark Site — a Spring Boot app for saving and organizing web bookmarks. Built with Java, Spring Boot, MySQL, and REST APIs.

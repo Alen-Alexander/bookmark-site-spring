@@ -42,12 +42,23 @@ release.properties
 dependency-reduced-pom.xml
 buildNumber.properties
 .mvn/timing.properties
-# https://maven.apache.org/tools/wrapper/#Usage_with_or_without_Binary_JAR
 .mvn/wrapper/maven-wrapper.jar
 
-# Eclipse m2e generated files
-# Eclipse Core
 .project
-# JDT-specific (Eclipse Java Development Tools)
 .classpath
+<<<<<<< HEAD
 >>>>>>> ea932891364df07d7912110df28eb3a12dd57671
+=======
+.settings/
+.springBeans
+.apt_generated/
+.factorypath
+.sts4-cache/
+
+.idea/
+*.iml
+.vscode/
+*.log
+.DS_Store
+Thumbs.db
+>>>>>>> 31325fa64e55bd1af4a78e3131551c42097529ce

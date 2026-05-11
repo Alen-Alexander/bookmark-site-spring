@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Signup</title>
+</head>
+<body>
+
+<h2>Signup</h2>
+
+<form method="post" action="/signup">
+    <label>Username:</label><br>
+    <input type="text" name="username"><br><br>
+
+    <label>Password:</label><br>
+    <input type="password" name="password"><br><br>
+
+    <button type="submit">Signup</button>
+</form>
+
+<p style="color:red;">[[${error}]]</p>
+
+<a href="/login">Login</a>
+
+</body>
+</html>
